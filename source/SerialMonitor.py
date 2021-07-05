@@ -164,8 +164,12 @@ def main():
     sm.com, sm.baud = sm.portSetup()
     if sm.com != None:
         if sm.com.startswith("COM"):
-            sm.sp = serial.Serial(port=sm.com, baudrate=sm.baud, bytesize=8, timeout=2, stopbits=1)
-            sm.SM_start()
+            try:
+                sm.sp = serial.Serial(port=sm.com, baudrate=sm.baud,
+                                      bytesize=8, timeout=2, stopbits=1)
+                sm.SM_start()
+            except serial.serialutil.SerialException:
+                psg.Popup('Communication Lost!')
     sm.window1.close()
 
 
