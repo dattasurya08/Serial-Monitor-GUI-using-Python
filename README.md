@@ -4,7 +4,8 @@ A Serial Communication User Interface Application built using Python.
 ## Installation
 * [`SerialMonitor Application (EXE file)`](../main/dist/SerialMonitor.exe)
 * [`SerialMonitor extracting Installer`](../main/dist/SerialMonitorInstaller.EXE)
-> Preferably download the Application file (exe)
+> Preferably download the Application file (exe).
+
 > Antivirus may prompt for a Scan. Do allow it!
 ## Python Libraries Used
 * `serial`
