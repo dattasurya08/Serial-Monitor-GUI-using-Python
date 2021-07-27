@@ -10,4 +10,4 @@ A Serial Communication User Interface Application built using Python
 ## Application Usage
 * Install the application (see Installation).
 * Connect your Serial device to any COM port, else you'll see a warning as shown below:
-![No Ports Warning](../main/images/no_ports_available.jpeg)
+![No Ports Warning](../main/images/no_ports_available.jpg)
