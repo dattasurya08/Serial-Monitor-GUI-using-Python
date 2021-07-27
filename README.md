@@ -8,9 +8,9 @@ A Serial Communication User Interface Application built using Python.
 
 > Antivirus may prompt for a Scan. Do allow it!
 ## Python Libraries Used
+* `PySimpleGUI`
 * `serial`
 * `serial.tools.list_ports`
-* `PySimpleGUI`
 * `time`
 ## Application Usage
 * Install the application (see Installation).
