@@ -2,7 +2,7 @@
 A Serial Communication User Interface Application built using Python
 ## Installation
 * [`SerialMonitor Application (EXE)`](../main/dist/SerialMonitor.exe)
-* Compatible to any Serial UART/RS232 device 98051/Arduino/any microcontroller UART)
+* Compatible to any Serial UART/RS232 device (8051/Arduino/any microcontroller UART)
 ## Python Libraries Used
 * `serial`
 * `serial.tools.list_ports`
