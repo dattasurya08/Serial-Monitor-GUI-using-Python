@@ -15,6 +15,6 @@ A Serial Communication User Interface Application built using Python.
 ## Application Usage
 * Install the application (see Installation).
 * Connect your Serial device to any COM port, else you'll see a warning.
-* Setup appropriate baudrate and COM port in Port Setup GUI.
+* Setup appropriate Baud Rate and COM port in Port Setup GUI.
 ## Run Python file
 * Command line: [`python SerialMonitor.py`](../main/source/SerialMonitor.py)
