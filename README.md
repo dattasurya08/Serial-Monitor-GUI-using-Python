@@ -9,5 +9,5 @@ A Serial Communication User Interface Application built using Python
 * `time`
 ## Application Usage
 * Install the application (see Installation).
-* Connect your Serial device to any COM port, else you'll see a warning as shown below:
-![No Ports Warning](../main/images/no_ports_available.jpg)
+* Connect your Serial device to any COM port, else you'll see a warning.
+* Setup appropriate baudrate and COM port in Port Setup GUI.
